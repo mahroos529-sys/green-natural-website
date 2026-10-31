@@ -3,6 +3,16 @@
 ## Live Demo
 [View Website](https://mahroos529-sys.github.io/green-natural-website/)
 
+## Website Screenshots
+
+### Home Page
+![Home Page](home-page.png)
+
+### Products Page
+![Products Page](products-page.png)
+
+### Contact Page
+![Contact Page](contact-page.png)
 ## About the Project
 A natural food, beverages and dairy products website built using HTML, CSS and JavaScript.GREEN NATURAL WEBSITE
 ======================
