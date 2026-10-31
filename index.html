@@ -1,0 +1,262 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/jpeg" href="assets/favicon.png.jpeg" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta
+      name="description"
+      content="GREEN NATURAL Food Beverages & Dairy Products - Joocy Basil drinks and natural beverages from Paramakudi, Tamil Nadu."
+    />
+    <title>GREEN NATURAL | Food Beverages & Dairy Products</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="topbar">
+      <span>🌿 Natural • Pure • Healthy</span>
+      <span>📍 Paramakudi, Tamil Nadu</span>
+    </div>
+
+    <header class="header">
+      <a class="brand" href="#home" aria-label="GREEN NATURAL home">
+        <img src="assets/logo.jpg" alt="GREEN NATURAL logo" />
+        <div>
+          <strong>GREEN NATURAL</strong>
+          <small>Food Beverages & Dairy Products</small>
+        </div>
+      </a>
+
+      <nav class="desktop-nav">
+        <a href="#home">Home</a>
+        <a href="#shop">Shop</a>
+        <a href="#categories">Categories</a>
+        <a href="#about">About</a>
+        <a href="#contact">Contact</a>
+      </nav>
+
+      <div class="header-actions">
+        <button class="icon-btn" id="searchBtn" aria-label="Search">⌕</button>
+        <button class="cart-btn" id="cartBtn">
+          🛒 <span>Cart</span> <b id="cartCount">0</b>
+        </button>
+        <button class="menu-btn" id="menuBtn" aria-label="Open menu">☰</button>
+      </div>
+    </header>
+
+    <div class="mobile-menu" id="mobileMenu">
+      <a href="#home">Home</a>
+      <a href="#shop">Shop</a>
+      <a href="#categories">Categories</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </div>
+
+    <section class="search-panel" id="searchPanel">
+      <div class="search-wrap">
+        <input
+          id="searchInput"
+          type="search"
+          placeholder="Search juices, flavours..."
+          autocomplete="off"
+        />
+        <button id="clearSearch">Clear</button>
+      </div>
+    </section>
+
+    <main>
+      <section class="hero" id="home">
+        <img
+          src="assets/hero.jpg"
+          alt="Joocy Basil refreshing basil seed drinks"
+        />
+        <div class="hero-overlay">
+          <p class="eyebrow">GREEN NATURAL • PARAMAKUDI</p>
+          <h1>Freshness in<br /><span>Every Sip.</span></h1>
+          <p>
+            Discover refreshing Joocy Basil drinks with delicious flavours and
+            basil seed goodness.
+          </p>
+          <a class="primary-btn" href="#shop">Shop Drinks <span>→</span></a>
+        </div>
+      </section>
+
+      <section class="categories section" id="categories">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">EXPLORE</p>
+            <h2>Shop by Category</h2>
+          </div>
+        </div>
+        <div class="category-grid">
+          <button class="category-card active" data-filter="all">
+            <span>🍹</span><strong>All Drinks</strong><small>6 products</small>
+          </button>
+          <button class="category-card" data-filter="fruit">
+            <span>🍊</span><strong>Fruit Flavours</strong
+            ><small>5 products</small>
+          </button>
+          <button class="category-card" data-filter="milk">
+            <span>🥛</span><strong>Milk Flavour</strong><small>1 product</small>
+          </button>
+        </div>
+      </section>
+
+      <section class="shop section" id="shop">
+        <div class="section-heading shop-heading">
+          <div>
+            <p class="eyebrow">OUR COLLECTION</p>
+            <h2>Joocy Basil Drinks</h2>
+            <p class="muted">Choose your favourite flavour.</p>
+          </div>
+          <select id="sortSelect" aria-label="Sort products">
+            <option value="featured">Sort: Featured</option>
+            <option value="low">Price: Low to High</option>
+            <option value="high">Price: High to Low</option>
+            <option value="name">Name: A-Z</option>
+          </select>
+        </div>
+
+        <div class="product-grid" id="productGrid"></div>
+        <div class="empty-state" id="emptyState">
+          No products found. Try another search.
+        </div>
+      </section>
+
+      <section class="benefits">
+        <div class="benefit">
+          <span>🌿</span>
+          <div>
+            <strong>Natural</strong><small>Made for refreshing moments</small>
+          </div>
+        </div>
+        <div class="benefit">
+          <span>💧</span>
+          <div>
+            <strong>Refreshing</strong><small>Great taste in every sip</small>
+          </div>
+        </div>
+        <div class="benefit">
+          <span>✨</span>
+          <div>
+            <strong>Quality</strong><small>Quality-focused beverages</small>
+          </div>
+        </div>
+        <div class="benefit">
+          <span>🚚</span>
+          <div>
+            <strong>Easy Ordering</strong
+            ><small>Order directly on WhatsApp</small>
+          </div>
+        </div>
+      </section>
+
+      <section class="about section" id="about">
+        <div class="about-card">
+          <img
+            src="assets/company-card.jpg"
+            alt="GREEN NATURAL company information"
+          />
+          <div>
+            <p class="eyebrow">ABOUT US</p>
+            <h2>GREEN NATURAL</h2>
+            <p>
+              GREEN NATURAL FOOD BEVERAGES & DAIRY PRODUCTS is based in
+              Paramakudi, Tamil Nadu. We focus on food, beverage and dairy
+              products with the promise:
+              <strong>Natural • Pure • Healthy.</strong>
+            </p>
+            <a class="secondary-btn" href="#contact">Contact Us</a>
+          </div>
+        </div>
+      </section>
+
+      <section class="contact section" id="contact">
+        <div class="section-heading">
+          <div>
+            <p class="eyebrow">GET IN TOUCH</p>
+            <h2>Contact GREEN NATURAL</h2>
+          </div>
+        </div>
+        <div class="contact-grid">
+          <div class="contact-info">
+            <div class="contact-item">
+              <span>📍</span>
+              <div>
+                <strong>Address</strong>
+                <p>
+                  3/444, Mudhukulathur Road, Sathiyamoorthy Colony, (Near
+                  Pallivasal), Paramakudi - 623 707, Ramanathapuram District,
+                  Tamil Nadu.
+                </p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span>📞</span>
+              <div>
+                <strong>Phone</strong>
+                <p>
+                  <a href="tel:04564223300">04564 223300</a> ·
+                  <a href="tel:9659391865">96593 91865</a>
+                </p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span>✉️</span>
+              <div>
+                <strong>Email</strong>
+                <p>
+                  <a href="mailto:greennaturalfoodbeverages@gmail.com"
+                    >greennaturalfoodbeverages@gmail.com</a
+                  >
+                </p>
+              </div>
+            </div>
+            <div class="contact-item">
+              <span>🧾</span>
+              <div>
+                <strong>GSTIN</strong>
+                <p>33AVWPM8087A1Z6</p>
+              </div>
+            </div>
+          </div>
+          <div class="order-box">
+            <h3>Ready to order?</h3>
+            <p>
+              Add products to your cart and send the order directly to GREEN
+              NATURAL on WhatsApp.
+            </p>
+            <button class="whatsapp-btn" id="whatsappContact">
+              💬 WhatsApp Us
+            </button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-brand">
+        <strong>GREEN NATURAL</strong
+        ><span>Food Beverages & Dairy Products</span>
+      </div>
+      <p>© 2026 GREEN NATURAL. All rights reserved.</p>
+    </footer>
+
+    <aside class="cart-drawer" id="cartDrawer" aria-hidden="true">
+      <div class="cart-header">
+        <h2>Your Cart</h2>
+        <button id="closeCart" aria-label="Close cart">×</button>
+      </div>
+      <div class="cart-items" id="cartItems"></div>
+      <div class="cart-footer">
+        <div class="total-row">
+          <span>Subtotal</span><strong id="cartTotal">₹0</strong>
+        </div>
+        <button class="checkout-btn" id="checkoutBtn">Order on WhatsApp</button>
+        <button class="continue-btn" id="continueBtn">Continue Shopping</button>
+      </div>
+    </aside>
+    <div class="overlay" id="overlay"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>
