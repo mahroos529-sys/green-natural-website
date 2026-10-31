@@ -1,4 +1,10 @@
-GREEN NATURAL WEBSITE
+# Green Natural Website
+
+## Live Demo
+[View Website](https://mahroos529-sys.github.io/green-natural-website/)
+
+## About the Project
+A natural food, beverages and dairy products website built using HTML, CSS and JavaScript.GREEN NATURAL WEBSITE
 ======================
 
 1. Extract/open this folder.
